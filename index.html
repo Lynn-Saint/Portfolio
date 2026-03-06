@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Ryan Codes</title>
+  <link rel="icon" href="Assets/favicon.png" type="image/png">
+
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Satisfy&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#" class="logo">Ryan Codes.</a>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#works">Portfolio</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section reveal">
+      <div class="hero-content">
+        <h2>Hello, I'm Ryan Codes</h2>
+        <h1 class="typed-text"><span class="auto-type"></span></h1>
+        <p class="subtitle">Ex Nihilo Nihil fit. Sic Carpe Diem et Sapere Aude.</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary" onclick="window.location.href='#contact'">Hire Me</button>
+          <a href="Assets/689273c2917de100127ea9a1.jpg" download="Resume.jpg" class="btn btn-secondary">
+            Resume <img src="Assets/download.png" alt="" class="icon-small" onerror="this.style.display='none'">
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="#"><img src="Assets/github.png" alt="GitHub" class="social-icon"
+              onerror="this.style.display='none'"></a>
+          <a href="#"><img src="Assets/linkedin.png" alt="LinkedIn" class="social-icon"
+              onerror="this.style.display='none'"></a>
+          <a href="#"><img src="Assets/instagram.png" alt="Instagram" class="social-icon"
+              onerror="this.style.display='none'"></a>
+          <a href="#"><img src="Assets/facebook.png" alt="Facebook" class="social-icon"
+              onerror="this.style.display='none'"></a>
+          <a href="#"><img src="Assets/twitter.png" alt="Twitter" class="social-icon"
+              onerror="this.style.display='none'"></a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="blob"></div>
+        <svg class="profile-img floating-avatar" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <!-- Background Circle -->
+          <circle cx="200" cy="200" r="180" fill="rgba(34, 211, 238, 0.1)" stroke="url(#gradient)" stroke-width="4" />
+
+          <!-- Defs for Gradient -->
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#22d3ee" />
+              <stop offset="100%" stop-color="#d946ef" />
+            </linearGradient>
+          </defs>
+
+          <!-- Hacker/Coder Avatar -->
+          <g transform="translate(100, 80)">
+            <!-- Head -->
+            <rect x="60" y="40" width="80" height="90" rx="40" fill="#cbd5e1" />
+
+            <!-- Hoodie/Body -->
+            <path d="M 20 220 Q 20 150 100 150 Q 180 150 180 220 L 200 280 L 0 280 Z" fill="#1e293b" />
+
+            <!-- Hoodie Details (Strings/Shadows) -->
+            <path d="M 70 150 L 70 200 M 130 150 L 130 200" stroke="#0f172a" stroke-width="4" stroke-linecap="round" />
+
+            <!-- Glowing Eyes/Glasses -->
+            <rect x="65" y="80" width="30" height="15" rx="5" fill="#22d3ee" />
+            <rect x="105" y="80" width="30" height="15" rx="5" fill="#22d3ee" />
+            <path d="M 95 87 L 105 87" stroke="#22d3ee" stroke-width="2" />
+
+            <!-- Code Symbols Floating Around -->
+            <text x="-20" y="50" fill="#d946ef" font-family="monospace" font-size="24" font-weight="bold"
+              opacity="0.6">&lt;/&gt;</text>
+            <text x="160" y="80" fill="#22d3ee" font-family="monospace" font-size="28" font-weight="bold"
+              opacity="0.6">{ }</text>
+            <text x="150" y="200" fill="#d946ef" font-family="monospace" font-size="20" font-weight="bold"
+              opacity="0.4">#</text>
+            <text x="-10" y="180" fill="#22d3ee" font-family="monospace" font-size="22" font-weight="bold"
+              opacity="0.5">;</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section reveal">
+      <div class="section-header">
+        <h3>My Skills</h3>
+        <p>Here Are My Technical Skills.</p>
+      </div>
+
+      <div class="skills-container">
+        <!-- Progress Bars -->
+        <div class="skills-bars">
+          <div class="skill">
+            <label><img src="Assets/html5.png" alt="" class="skill-icon" onerror="this.style.display='none'">
+              HTML</label>
+            <div class="progress-bar">
+              <div class="progress" data-width="98%" style="width: 0;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <label><img src="Assets/css3.png" alt="" class="skill-icon" onerror="this.style.display='none'"> CSS</label>
+            <div class="progress-bar">
+              <div class="progress" data-width="85%" style="width: 0;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <label><img src="Assets/js.png" alt="" class="skill-icon" onerror="this.style.display='none'">
+              JavaScript</label>
+            <div class="progress-bar">
+              <div class="progress" data-width="61%" style="width: 0;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <label><img src="Assets/react.png" alt="" class="skill-icon" onerror="this.style.display='none'">
+              React</label>
+            <div class="progress-bar">
+              <div class="progress" data-width="40%" style="width: 0;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <label><img src="Assets/python1.png" alt="" class="skill-icon" onerror="this.style.display='none'">
+              Python</label>
+            <div class="progress-bar">
+              <div class="progress" data-width="70%" style="width: 0;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tool Boxes -->
+        <div class="skills-tools">
+          <div class="tool-card glass">
+            <img src="Assets/node-js.png" alt="" onerror="this.style.display='none'">
+            <p>Node.js</p>
+          </div>
+          <div class="tool-card glass">
+            <img src="Assets/python.png" alt="" onerror="this.style.display='none'">
+            <p>Django</p>
+          </div>
+          <div class="tool-card glass">
+            <img src="Assets/bitmap.png" alt="" onerror="this.style.display='none'">
+            <p>Express.js</p>
+          </div>
+          <div class="tool-card glass">
+            <img src="Assets/code.png" alt="" onerror="this.style.display='none'">
+            <p>C++</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section reveal">
+      <div class="section-header">
+        <h3>Cyber Security</h3>
+        <p>Acquired skills and certificates.</p>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card glass">
+          <h4>CCNA</h4>
+          <p>Cisco Certified Network Associate</p>
+        </div>
+        <div class="cert-card glass">
+          <h4>eJPT</h4>
+          <p>eLearnSecurity Junior Penetration Tester</p>
+        </div>
+        <div class="cert-card glass">
+          <h4>Cyber Security</h4>
+          <p>Network Security, Penetration Testing, Risk Analysis</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="works section reveal">
+      <div class="section-header">
+        <h3>My Works</h3>
+        <p>Here Are Some Of My Projects</p>
+      </div>
+
+      <div class="works-grid">
+        <div class="work-card glass">
+          <img src="Assets/landing_page_-_works.png" alt="E-commerce"
+            onerror="this.src='https://via.placeholder.com/400x250/1e1b4b/22d3ee?text=E-commerce'">
+          <h4>E-commerce</h4>
+        </div>
+        <div class="work-card glass">
+          <img src="Assets/financial_landing_wip.png" alt="Bank Acc"
+            onerror="this.src='https://via.placeholder.com/400x250/1e1b4b/22d3ee?text=Bank+Account'">
+          <h4>Bank Acc</h4>
+        </div>
+        <div class="work-card glass">
+          <img src="Assets/Alarm.png" alt="Alarm Clock"
+            onerror="this.src='https://via.placeholder.com/400x250/1e1b4b/22d3ee?text=Alarm+Clock'">
+          <h4>Alarm Clock</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Current Projects Section -->
+    <section id="current-projects" class="current-projects section reveal">
+      <div class="section-header">
+        <h3>Current Projects</h3>
+        <p>What I'm currently working on</p>
+      </div>
+
+      <div class="current-project-container glass">
+        <div class="project-image">
+          <a href="https://aegis-guard-six.vercel.app/" target="_blank">
+            <img src="Assets/aegis_dashboard.png" alt="Aegis Guard Dashboard Preview" class="project-preview"
+              id="aegis-preview">
+          </a>
+        </div>
+        <div class="project-info">
+          <h4 class="project-title">Aegis Guard</h4>
+          <p class="project-subtitle">Next-Gen AI-Powered Protection</p>
+          <p class="project-description">
+            Enterprise-grade security combining cutting-edge AI heuristic analysis with traditional signature scanning —
+            all running locally on your device with zero telemetry. Privacy & Safety are fundamental rights.
+          </p>
+          <div class="project-features">
+            <span class="feature-tag">Real-time Protection</span>
+            <span class="feature-tag">AI Heuristic Engine</span>
+            <span class="feature-tag">Zero-Day Defense</span>
+            <span class="feature-tag">Privacy Shield</span>
+            <span class="feature-tag">Lightweight Engine</span>
+          </div>
+          <a href="https://aegis-guard-six.vercel.app/" target="_blank" class="btn btn-primary project-btn">
+            View Live Project
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section reveal">
+      <div class="section-header">
+        <h3>Resume</h3>
+        <p>Experiences and Qualifications</p>
+      </div>
+
+      <div class="resume-container">
+        <div class="timeline">
+          <div class="timeline-item glass right">
+            <h4>Software Developer</h4>
+            <em>Google</em>
+            <span>June 2028 - Present</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis asperiores debitis ad.</p>
+          </div>
+          <div class="timeline-item glass left">
+            <h4>W3schools, FreeCodeCamp CS50</h4>
+            <em>Code Academy</em>
+            <span>June 2025 - Present</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis asperiores debitis ad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section reveal">
+      <div class="section-header">
+        <h3>Contact</h3>
+        <p>Leave a suggestion or request</p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-text">
+          <p><span>You Need</span><br>Beautiful design for your unique website?<br>Leave a request!</p>
+        </div>
+
+        <div class="contact-form glass">
+          <form action="mailto:ryanfumbii@gmail.com" method="post" enctype="text/plain" class="contact-form-content">
+            <input type="text" name="name" class="input-field" placeholder="Username" required>
+            <input type="email" name="email" class="input-field" placeholder="example@gmail.com" required>
+            <textarea name="message" class="input-field text-area" placeholder="Write Your Message..." rows="6"
+              required></textarea>
+            <button type="submit" class="btn btn-primary btn-submit">
+              Send <img src="Assets/papper plane.png" alt="" class="icon-small" onerror="this.style.display='none'">
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h2>Let's Talk</h2>
+    <div class="footer-links">
+      <div class="footer-item" onclick="openQRModal('Assets/WhatsApp Image 2026-03-05 at 9.56.08 PM.jpeg')">
+        <img src="Assets/telegram.png" alt="" class="social-icon" onerror="this.style.display='none'">
+        <span>Telegram</span>
+      </div>
+      <div class="footer-item" onclick="openQRModal('Assets/WhatsApp Image 2026-03-05 at 9.54.12 PM.jpeg')">
+        <img src="Assets/whatsapp.png" alt="" class="social-icon" onerror="this.style.display='none'">
+        <span>Whatsapp</span>
+      </div>
+      <div class="footer-item" onclick="openQRModal('Assets/WhatsApp Image 2026-03-05 at 9.56.08 PM(1).jpeg')">
+        <img src="Assets/instagram.png" alt="" class="social-icon" onerror="this.style.display='none'">
+        <span>Instagram</span>
+      </div>
+    </div>
+    <p class="copyright">&copy; Copyright Lynn-Tech 2026. All Rights Reserved.</p>
+  </footer>
+
+  <!-- QR Modal -->
+  <div id="qr-modal" class="qr-modal" onclick="closeQRModal()">
+    <div class="qr-modal-content glass" onclick="event.stopPropagation()">
+      <span class="qr-close" onclick="closeQRModal()">&times;</span>
+      <img id="qr-image" src="" alt="QR Code">
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
